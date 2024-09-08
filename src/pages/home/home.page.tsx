@@ -1,11 +1,9 @@
 import {Text, View} from 'react-native';
 
-const App: React.FC = () => {
+export const HomePage: React.FC = () => {
   return (
     <View>
-      <Text>Opa</Text>
+      <Text>Home</Text>
     </View>
   );
 };
-
-export default App;
