@@ -1,9 +1,10 @@
-import {Text, View} from 'react-native';
+import {Text} from '@/components/text/text.component';
+import {SafeAreaView} from 'react-native';
 
-export const HomePage: React.FC = () => {
+export const HomPage: React.FC = () => {
   return (
-    <View>
-      <Text>Home</Text>
-    </View>
+    <SafeAreaView className="items-center justify-center flex-1">
+      <Text className="text-5xl">Hom</Text>
+    </SafeAreaView>
   );
 };

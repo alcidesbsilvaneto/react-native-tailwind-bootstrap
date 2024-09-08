@@ -12,9 +12,14 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		550D9F2F1B194C179DF081EB /* QuicksandBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29958B54EF4F48E589292664 /* QuicksandBold.ttf */; };
+		682A65C848714F08ADFFC35A /* QuicksandLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FE47AD0BB864EA7AE767B4D /* QuicksandLight.ttf */; };
+		708535ED55CA4B09A914D160 /* QuicksandRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9D8564F4FD3415581E8BE4A /* QuicksandRegular.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-AIFred-AIFredTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AIFred-AIFredTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		AC650047F55343688EDB348C /* QuicksandMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4900997780814F3392C75A11 /* QuicksandMedium.ttf */; };
 		B07AEBF79C87C691A497BE1A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2D4D5349F8C30B6F476517D8 /* PrivacyInfo.xcprivacy */; };
+		CCB0C576A4064D55892C2726 /* QuicksandSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D25DA2EE06194F1494D8B5DF /* QuicksandSemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +44,18 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AIFred/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = AIFred/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-AIFred-AIFredTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AIFred-AIFredTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29958B54EF4F48E589292664 /* QuicksandBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = QuicksandBold.ttf; path = ../src/assets/fonts/QuicksandBold.ttf; sourceTree = "<group>"; };
 		2D4D5349F8C30B6F476517D8 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = AIFred/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-AIFred.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIFred.debug.xcconfig"; path = "Target Support Files/Pods-AIFred/Pods-AIFred.debug.xcconfig"; sourceTree = "<group>"; };
+		4900997780814F3392C75A11 /* QuicksandMedium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = QuicksandMedium.ttf; path = ../src/assets/fonts/QuicksandMedium.ttf; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-AIFred.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIFred.release.xcconfig"; path = "Target Support Files/Pods-AIFred/Pods-AIFred.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-AIFred-AIFredTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIFred-AIFredTests.debug.xcconfig"; path = "Target Support Files/Pods-AIFred-AIFredTests/Pods-AIFred-AIFredTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-AIFred.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AIFred.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AIFred/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-AIFred-AIFredTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIFred-AIFredTests.release.xcconfig"; path = "Target Support Files/Pods-AIFred-AIFredTests/Pods-AIFred-AIFredTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FE47AD0BB864EA7AE767B4D /* QuicksandLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = QuicksandLight.ttf; path = ../src/assets/fonts/QuicksandLight.ttf; sourceTree = "<group>"; };
+		A9D8564F4FD3415581E8BE4A /* QuicksandRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = QuicksandRegular.ttf; path = ../src/assets/fonts/QuicksandRegular.ttf; sourceTree = "<group>"; };
+		D25DA2EE06194F1494D8B5DF /* QuicksandSemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = QuicksandSemiBold.ttf; path = ../src/assets/fonts/QuicksandSemiBold.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -127,6 +137,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				BFFC6681CDB545D190B858CD /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -151,6 +162,19 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-AIFred-AIFredTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		BFFC6681CDB545D190B858CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29958B54EF4F48E589292664 /* QuicksandBold.ttf */,
+				9FE47AD0BB864EA7AE767B4D /* QuicksandLight.ttf */,
+				4900997780814F3392C75A11 /* QuicksandMedium.ttf */,
+				A9D8564F4FD3415581E8BE4A /* QuicksandRegular.ttf */,
+				D25DA2EE06194F1494D8B5DF /* QuicksandSemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +273,11 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				B07AEBF79C87C691A497BE1A /* PrivacyInfo.xcprivacy in Resources */,
+				550D9F2F1B194C179DF081EB /* QuicksandBold.ttf in Resources */,
+				682A65C848714F08ADFFC35A /* QuicksandLight.ttf in Resources */,
+				AC650047F55343688EDB348C /* QuicksandMedium.ttf in Resources */,
+				708535ED55CA4B09A914D160 /* QuicksandRegular.ttf in Resources */,
+				CCB0C576A4064D55892C2726 /* QuicksandSemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

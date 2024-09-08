@@ -1,11 +1,3 @@
-import {Text, View} from 'react-native';
-
-const App: React.FC = () => {
-  return (
-    <View>
-      <Text>Opa</Text>
-    </View>
-  );
-};
+import App from '@/App';
 
 export default App;
