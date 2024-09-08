@@ -1,6 +1,6 @@
 import {RootStackParamList} from '@/interfaces/root-stack-params.interface';
-import {HomePage} from '@/pages/home/home.page';
 import {LoginPage} from '@/pages/login/login.page';
+import {HomePage} from '@/pages/home/home.page';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
